@@ -40,6 +40,7 @@ const Sidebar = () => {
           {/*  buttons of sidebar starts here */}
 
           <div className="button_section">
+            <h6>Gaming Modes</h6>
             <button className="crown">
               <span>
                 <img src={btnCrown} alt="crown" />
@@ -66,7 +67,13 @@ const Sidebar = () => {
           {/* tabs sections starts here */}
           <div className="tabs_section">
             <div className="borderss"></div>
-            <p>KING OF THE RINGS leaderboard</p>
+            <h6>NFT Holders Space</h6>
+
+            <button>nft dahboard</button>
+            <button>sponsored pools</button>
+            <button className="my_dao">my dao team</button>
+
+            {/* <p>KING OF THE RINGS leaderboard</p>
             <div className="borderss"></div>
 
             <p>KING OF THE RING Game mode guideline</p>
@@ -75,7 +82,7 @@ const Sidebar = () => {
             <p>Sponsored Pools</p>
             <div className="borderss"></div>
 
-            <p>Learn about different leagues</p>
+            <p>Learn about different leagues</p> */}
           </div>
           {/* tabs sections ends here */}
         </div>
@@ -115,6 +122,7 @@ const Sidebar = () => {
             {/*  buttons of sidebar starts here */}
 
             <div className="button_section">
+              <h6>Gaming Modes</h6>
               <button className="crown">
                 <span>
                   <img src={btnCrown} alt="crown" />
@@ -141,16 +149,11 @@ const Sidebar = () => {
             {/* tabs sections starts here */}
             <div className="tabs_section">
               <div className="borderss"></div>
-              <p>KING OF THE RINGS leaderboard</p>
-              <div className="borderss"></div>
+              <h6>NFT Holders Space</h6>
 
-              <p>KING OF THE RING Game mode guideline</p>
-              <div className="borderss"></div>
-
-              <p>Sponsored Pools</p>
-              <div className="borderss"></div>
-
-              <p>Learn about different leagues</p>
+              <button>nft dahboard</button>
+              <button>sponsored pools</button>
+              <button className="my_dao">my dao team</button>
             </div>
             {/* tabs sections ends here */}
           </div>
