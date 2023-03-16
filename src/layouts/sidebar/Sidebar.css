@@ -29,6 +29,9 @@
   align-items: center;
   margin-bottom: 30px;
 }
+.links_section a:hover {
+  color: #f7d073;
+}
 .links_section a img {
   margin-right: 19px;
 }
