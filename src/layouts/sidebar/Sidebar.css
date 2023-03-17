@@ -3,7 +3,10 @@
   background: #242834;
   max-width: 350px;
   padding: 0px 35px;
-  padding-top: 250px;
+  padding-top: 400px;
+}
+button.trophy span {
+  margin-right: 10px;
 }
 .links_section {
   padding: 30px;
@@ -15,7 +18,7 @@
   box-shadow: 9px 0px 27px rgba(0, 0, 0, 0.2);
   border-radius: 44px;
   filter: drop-shadow(-2px 1px 15px rgba(172, 137, 62, 0.5));
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .links_section a {
   font-family: "Exo", sans-serif;
@@ -121,8 +124,8 @@
   line-height: 22px;
   color: #ffffff;
   text-align: center;
-  margin-bottom: 0px px;
-  padding-bottom: 25px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
 }
 .mobile_sidebar_hidden {
   display: none;
@@ -149,7 +152,7 @@
   border: 1px solid #bb9646;
   padding: 18px 0px;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .tabs_section .my_dao {
   font-family: "Exo", sans-serif;
@@ -201,17 +204,22 @@
   .mobile_sidebar_hidden {
     display: none;
     animation: slide 0.5s forwards;
-    left: 50%;
+    right: 50%;
   }
   .mobile_view_sidebar {
     display: block;
     z-index: 9999;
-    left: -50%;
+    right: -50%;
     animation: slide 0.5s forwards;
     position: fixed;
     top: 100px;
     overflow: scroll;
     overflow-x: hidden;
+    /* width: 300px; */
+    left: auto;
+  }
+  button.trophy span {
+    margin-right: 22px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -219,12 +227,12 @@
   .mobile_sidebar_hidden {
     display: none;
     animation: slide 0.5s forwards;
-    left: 50%;
+    right: 50%;
   }
   .mobile_view_sidebar {
     display: block;
     z-index: 9999;
-    left: -50%;
+    right: -50%;
     animation: slide 0.5s forwards;
   }
   .overlay {
@@ -237,7 +245,16 @@
 
 @keyframes slide {
   100% {
-    left: 0;
+    right: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .tabs_section button,
+  .tabs_section .my_dao {
+    font-size: 16px;
+    line-height: 18px;
+
+    padding: 18px 0px;
   }
 }
 @media screen and (max-width: 330px) {

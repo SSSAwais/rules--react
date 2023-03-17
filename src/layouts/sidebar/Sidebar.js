@@ -69,9 +69,11 @@ const Sidebar = () => {
             <div className="borderss"></div>
             <h6>NFT Holders Space</h6>
 
-            <button>nft dahboard</button>
+            <button>nft dashboard</button>
             <button>sponsored pools</button>
-            <button className="my_dao">my dao team</button>
+            <button className="my_dao">
+              my dao <sup>2</sup> team
+            </button>
 
             {/* <p>KING OF THE RINGS leaderboard</p>
             <div className="borderss"></div>
@@ -151,9 +153,11 @@ const Sidebar = () => {
               <div className="borderss"></div>
               <h6>NFT Holders Space</h6>
 
-              <button>nft dahboard</button>
+              <button>nft dashboard</button>
               <button>sponsored pools</button>
-              <button className="my_dao">my dao team</button>
+              <button className="my_dao">
+                my dao <sup>2</sup> team
+              </button>
             </div>
             {/* tabs sections ends here */}
           </div>
