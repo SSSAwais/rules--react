@@ -221,10 +221,14 @@
     padding-top: 20px;
     height: 166px;
   }
+  .flip-card-back .backDispcriptio {
+    font-size: 13px;
+    line-height: 19px;
+  }
 }
 @media screen and (max-width: 1380px) {
   .flip-card-back .backDispcriptio {
-    height: 20px;
+    height: 40px;
   }
   .step1 p,
   .step2 p,
@@ -233,6 +237,10 @@
   }
   .step1 {
     height: 190px;
+  }
+  .flip-card-back h1 {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 @media screen and (max-width: 1280px) {
