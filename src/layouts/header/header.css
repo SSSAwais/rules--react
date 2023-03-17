@@ -174,12 +174,12 @@ header {
   .logo_image_wrapper {
     width: 100px;
   }
+  header {
+    padding: 22px 15px !important;
+  }
 }
 
 @media screen and (max-width: 330px) {
-  header {
-    padding: 22px;
-  }
   .logo_image_wrapper {
     width: 78px;
   }
