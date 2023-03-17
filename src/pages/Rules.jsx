@@ -20,12 +20,12 @@ const Rules = () => {
       backsideDisp: "Simple event pools: 1D2 game mode",
       stepHeading: "step 1",
       stepPara:
-        "CHOOSE YOUR LEAGUE BASED ON THE AMOUNT OF ETH YOU ARE READY TO RISK ON YOUR WAGER. THE LOWER THE BET, THE MORE COMPETITORS IN THE POOL",
+        "CHOOSE YOUR LEAGUE BASED ON THE AMOUNT OF ETH YOU ARE READY TO RISK ON YOUR WAGER. THE LOWER THE BET, THE MORE COMPETITORS IN THE POOL.",
       stepHeading2: "step 2",
       stepPara2:
-        "PLACE YOUR BET FOR THE EVENT. SOME EVENTS WILL HAVE TWO OPTIONS, OTHER EVENTS WILL HAVE A THIRD OPTION (A DRAW, FOR INSTANCE)",
+        "PLACE YOUR BET FOR THE EVENT. SOME EVENTS WILL HAVE TWO OPTIONS, OTHER EVENTS WILL HAVE A THIRD OPTION (A DRAW, FOR INSTANCE).",
       stepHeading3: "step 3",
-      stepPara3: "VALIDATE YOUR BET",
+      stepPara3: "VALIDATE YOUR BET.",
     },
     {
       icon: cardsword,
@@ -33,12 +33,12 @@ const Rules = () => {
       backsideHeading: "clash of champions",
       backsideDisp: "Simple/Multiple event pools: tournament 1D2 game mode",
       stepHeading: "step 1",
-      stepPara: "CHOOSE YOUR LEAGUE",
+      stepPara: "CHOOSE YOUR LEAGUE.",
       stepHeading2: "step 2",
       stepPara2:
-        "PLACE YOUR BET FOR THE EVENT. IN OUR CLASH OF CHAMPIONS MODE, BETTORS PLACE MULTIPLE BETS FOR A GIVEN EVENT/EVENTS",
+        "PLACE YOUR BET FOR THE EVENT. IN OUR CLASH OF CHAMPIONS MODE, BETTORS PLACE MULTIPLE BETS FOR A GIVEN EVENT/EVENTS.",
       stepHeading3: "step 3",
-      stepPara3: "VALIDATE YOUR BET",
+      stepPara3: "VALIDATE YOUR BET.",
     },
     {
       icon: cardtrophy,
@@ -46,12 +46,12 @@ const Rules = () => {
       backsideHeading: "GRAND CHELEM",
       backsideDisp: "Series multiple event pools: tournament custom game mode",
       stepHeading: "step 1",
-      stepPara: "CHOOSE YOUR LEAGUE",
+      stepPara: "CHOOSE YOUR LEAGUE.",
       stepHeading2: "step 2",
       stepPara2:
-        "PLACE YOUR BET FOR THE EVENT. IN OUR GRAND CHELEM (SLAM) MODE, BETTORS MAKE PICKS THAT 'RUN' FOR THE ENTIRE LENGTH OF THE TOURNAMENT",
+        "PLACE YOUR BET FOR THE EVENT. IN OUR GRAND CHELEM (SLAM) MODE, BETTORS MAKE PICKS THAT 'RUN' FOR THE ENTIRE LENGTH OF THE TOURNAMENT.",
       stepHeading3: "step 3",
-      stepPara3: "VALIDATE YOUR BET",
+      stepPara3: "VALIDATE YOUR BET.",
     },
   ])
   const [rulesData, setRuleData] = useState([

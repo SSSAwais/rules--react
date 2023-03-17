@@ -130,7 +130,7 @@
   }
   .rules_defined:hover .rules_disp_wrapper {
     height: 200px;
-    overflow: scroll;
+    overflow-y: scroll;
     top: 48px;
   }
   .rules_wrapper {

@@ -6,7 +6,8 @@
   padding-top: 400px;
 }
 button.trophy span {
-  margin-right: 10px;
+  margin-right: 5px;
+  padding-left: 10px;
 }
 .links_section {
   padding: 30px;
@@ -165,6 +166,9 @@ button.trophy span {
   line-height: 24px;
   color: #242834;
 }
+.mobile_view_sidebar {
+  display: none;
+}
 @media screen and (max-width: 1280px) {
   .web_view,
   .mobile_sidebar_hidden {
@@ -219,7 +223,8 @@ button.trophy span {
     left: auto;
   }
   button.trophy span {
-    margin-right: 22px;
+    margin-right: 10px;
+    padding-left: 16px;
   }
 }
 @media screen and (max-width: 1024px) {
