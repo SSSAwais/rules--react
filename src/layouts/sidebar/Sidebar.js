@@ -7,6 +7,7 @@ import btnCrown from "../../assets/images/btncrown.png"
 import sword from "../../assets/images/dbsword.png"
 import btntrophy from "../../assets/images/btntrophy.png"
 import { contentCreate } from "../../context/ContextApi"
+import { NavLink } from "react-router-dom"
 
 const Sidebar = () => {
   const conxt = useContext(contentCreate)
@@ -42,10 +43,12 @@ const Sidebar = () => {
           <div className="button_section">
             <h6>Gaming Modes</h6>
             <button className="crown">
-              <span>
-                <img src={btnCrown} alt="crown" />
-              </span>{" "}
-              Kings of the ring{" "}
+              <NavLink to="/kingsofrings ">
+                <span>
+                  <img src={btnCrown} alt="crown" />
+                </span>{" "}
+                Kings of the ring{" "}
+              </NavLink>
             </button>
             <button className="sword">
               <span>

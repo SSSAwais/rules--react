@@ -1,0 +1,70 @@
+.amateur_league h3,
+.rookie_league h3,
+.challenger_league h3,
+.pro_league h3 {
+  font-family: mounmentBold;
+  font-size: 18px;
+  color: #28bc10;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+.rookie_league h3 {
+  color: #808080;
+}
+.challenger_league h3 {
+  color: #ffa500;
+}
+
+.pro_league h3 {
+  color: #2a5ada;
+}
+.amateur_league p,
+.rookie_league p,
+.challenger_league p,
+.pro_league p {
+  font-family: "Exo", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.amateur_league,
+.rookie_league,
+.challenger_league,
+.pro_league {
+  padding: 20px 0px;
+  background: linear-gradient(
+    179.84deg,
+    #303642 -1.99%,
+    rgba(48, 52, 64, 0.2) 79.51%
+  );
+  border: 2px solid #28bc10;
+  border-radius: 33px;
+  margin: 0px 15px;
+}
+.rookie_league {
+  border: 2px solid #808080;
+}
+.challenger_league {
+  border: 2px solid #ffa500;
+}
+.pro_league {
+  border: 2px solid #2a5ada;
+}
+.naration_of_step1 p {
+  padding-top: 20px;
+  font-family: "Exo", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}

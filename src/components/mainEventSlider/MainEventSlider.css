@@ -1,0 +1,102 @@
+.mainn_events_fighter {
+  padding-top: 60px;
+}
+.mainn_events_fighter h3 {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: linear-gradient(
+    180deg,
+    #8e6a27 -1.11%,
+    #a17e36 1.91%,
+    #c3a150 8.07%,
+    #dcba63 13.88%,
+    #ebca6f 19.15%,
+    #f0cf73 23.38%,
+    #e5c46a 31.88%,
+    #c7a653 46.98%,
+    #96752e 66.75%,
+    #7b5a19 76.71%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding-bottom: 25px;
+  margin-bottom: 0px;
+}
+.main_fighting {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-around;
+}
+.versus_battle h4 {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: linear-gradient(
+    180deg,
+    #8e6a27 -1.11%,
+    #a17e36 1.91%,
+    #c3a150 8.07%,
+    #dcba63 13.88%,
+    #ebca6f 19.15%,
+    #f0cf73 23.38%,
+    #e5c46a 31.88%,
+    #c7a653 46.98%,
+    #96752e 66.75%,
+    #7b5a19 76.71%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.mainn_events_fighter .slick-prev:before {
+  content: "";
+  background-image: url("../../assets/images/leftArrow.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  position: absolute;
+}
+.mainn_events_fighter .slick-next:before {
+  content: "";
+  background-image: url("../../assets/images/rightArrow.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  position: absolute;
+}
+.mainn_events_fighter .slick-prev {
+  z-index: 1;
+}
+.first_fighter h6,
+.second_fighter h6 {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.second_fighter h6 {
+  padding-top: 11px;
+  text-align: center;
+}
+.first_fighter h6 {
+  padding-top: 11px;
+  text-align: center;
+}

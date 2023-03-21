@@ -61,6 +61,11 @@ button.trophy span {
 .button_section button img {
   margin-right: 8px;
 }
+.crown a,
+.crown a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
 .button_section .crown {
   background-image: url("../../assets/images/crownbg.png") !important;
   background-repeat: no-repeat !important;
