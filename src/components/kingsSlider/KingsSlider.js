@@ -13,27 +13,27 @@ const KingsSlider = () => {
   }
   return (
     <>
-    <div className="king_hero_slider">
-      <Slider {...settings}>
-        <div className="text-center slider_content">
-          <img src={kingsImage} alt="image" className="img-fluid m-auto" />
-          <div className="disp_slider_heading">
-            <h6>UFc 287</h6>
+      <div className="king_hero_slider">
+        <Slider {...settings}>
+          <div className="text-center slider_content">
+            <img src={kingsImage} alt="image" className="img-fluid m-auto" />
+            <div className="disp_slider_heading">
+              <h6>UFc 287</h6>
+            </div>
           </div>
-        </div>
-        <div className="slider_content">
-          <img src={kingsImage} alt="image" className="img-fluid m-auto" />
-          <div className="disp_slider_heading">
-            <h6>UFc 287</h6>
+          <div className="slider_content">
+            <img src={kingsImage} alt="image" className="img-fluid m-auto" />
+            <div className="disp_slider_heading">
+              <h6>UFc 287</h6>
+            </div>
           </div>
-        </div>
-        <div className="slider_content">
-          <img src={kingsImage} alt="image" className="img-fluid m-auto" />
-          <div className="disp_slider_heading">
-            <h6>UFc 287</h6>
+          <div className="slider_content">
+            <img src={kingsImage} alt="image" className="img-fluid m-auto" />
+            <div className="disp_slider_heading">
+              <h6>UFc 287</h6>
+            </div>
           </div>
-        </div>
-      </Slider>
+        </Slider>
       </div>
     </>
   )

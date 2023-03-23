@@ -1,7 +1,7 @@
 import React, { useContext } from "react"
 import "./header.css"
 import logo from "../../assets/images/logo.png"
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import { contentCreate } from "../../context/ContextApi"
 const Header = () => {
   const conxt = useContext(contentCreate)
@@ -18,7 +18,9 @@ const Header = () => {
           <div className="row main_row_header align-items-center">
             <div iv className="col-lg-1 col-md-1 col-sm-6 logo_">
               <div className="logo_image_wrapper">
-                <img src={logo} alt="logo" className="img-fluid" />
+                <NavLink to="/">
+                  <img src={logo} alt="logo" className="img-fluid" />
+                </NavLink>
               </div>
             </div>
             <div className="col-lg-5 col-md-5 header_left_menu">

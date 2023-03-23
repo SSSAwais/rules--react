@@ -1,10 +1,13 @@
 import React, { useState } from "react"
 import AbsDiv from "../../components/absDiv/AbsDiv"
 import AbsHeading from "../../components/absHeading/AbsHeading"
+import KingsCards from "../../components/kingsCards/KingsCards"
 import KingsSlider from "../../components/kingsSlider/KingsSlider"
 import MainEventSlider from "../../components/mainEventSlider/MainEventSlider"
 import ScrollSliders from "../../components/scrollSlider/ScrollSliders"
+import greenstar from "../../assets/images/greenstar.png"
 import "./KingsOfRings.css"
+import extraround from "../../assets/images/nocontest.png"
 const KingsOfRngs = () => {
   return (
     <>
@@ -18,7 +21,7 @@ const KingsOfRngs = () => {
             </div>
           </div>
           <div className="row kings_inner_wrapper ">
-            <div className="col-lg-8 text-center">
+            <div className="col-lg-8 col-md-12 col-sm-12 text-center">
               <div className="kings_heading">
                 <div className="empty"> </div>
                 <div className="heading_inner">
@@ -27,14 +30,14 @@ const KingsOfRngs = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 ">
+            <div className="col-lg-4 col-md-12 col-sm-12">
               <div className="rules">
                 <p>Rules</p>
               </div>
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-lg-8 col-md-10 col-sm-12">
               <div className="slider_section text-center">
                 <KingsSlider />
               </div>
@@ -80,6 +83,23 @@ const KingsOfRngs = () => {
           {/* main event slider ends here */}
 
           {/* step 2 of kings of the rings ends here */}
+          <div className="row kings_rings_Cards_section">
+            <KingsCards />
+          </div>
+
+          {/* step 3 starts here */}
+          <div className="row step_three_wrapper">
+            <div className="col-lg-12">
+              <div className="kings_step_three">
+                <h4>Step 3</h4>
+                <p>VALIDATE YOUR SELECTION AND YOUR BET - LET’S GO!</p>
+              </div>
+              <div className="lfg">
+                <button>LFG!</button>
+              </div>
+            </div>
+          </div>
+          {/* step 3 ends here */}
         </div>
       </section>
     </>

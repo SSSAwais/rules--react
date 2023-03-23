@@ -1,4 +1,4 @@
-.disp_slider_heading h6 {
+.clash_hero_slider .disp_slider_heading h6 {
   font-family: "Exo", sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -26,7 +26,7 @@
   text-fill-color: transparent;
 }
 
-.king_hero_slider .slick-prev:before {
+.clash_hero_slider .slick-prev:before {
   content: "" !important;
   background-image: url("../../assets/images/leftArrow.png");
   background-repeat: no-repeat;
@@ -34,10 +34,10 @@
   height: 50px;
   z-index: 999999;
   position: absolute;
-  left: 320px;
+  left: 150px;
   top: 105px;
 }
-.king_hero_slider .slick-next:before {
+.clash_hero_slider .slick-next:before {
   content: "" !important;
   background-image: url("../../assets/images/rightArrow.png");
   background-repeat: no-repeat;
@@ -46,52 +46,57 @@
   z-index: 999999;
   position: absolute;
   top: 105px;
-  right: 320px;
+  right: 150px;
 }
-.king_hero_slider .slick-prev {
+.clash_hero_slider .slick-prev {
   z-index: 1111;
+}
+.map_flag_middlebox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1700px) {
-  .king_hero_slider .slick-prev:before {
+  .clash_hero_slider .slick-prev:before {
     left: 280px;
   }
-  .king_hero_slider .slick-next:before {
+  .clash_hero_slider .slick-next:before {
     right: 280px;
   }
 }
 @media screen and (max-width: 1600px) {
-  .king_hero_slider .slick-prev:before {
+  .clash_hero_slider .slick-prev:before {
     left: 230px;
   }
-  .king_hero_slider .slick-next:before {
+  .clash_hero_slider .slick-next:before {
     right: 230px;
   }
 }
 @media screen and (max-width: 1450px) {
-  .disp_slider_heading h6 {
+  .clash_hero_slider .disp_slider_heading h6 {
     font-size: 30px;
     line-height: 48px;
   }
 }
 @media screen and (max-width: 1340px) {
-  .king_hero_slider .slick-prev:before {
+  .clash_hero_slider .slick-prev:before {
     left: 150px;
   }
-  .king_hero_slider .slick-next:before {
+  .clash_hero_slider .slick-next:before {
     right: 150px;
   }
 }
 @media screen and (max-width: 576px) {
-  .king_hero_slider .slick-next:before {
+  .clash_hero_slider .slick-next:before {
     right: 20px;
     top: 95px;
   }
-  .king_hero_slider .slick-prev:before {
+  .clash_hero_slider .slick-prev:before {
     left: 20px;
     top: 95px;
   }
-  .disp_slider_heading h6 {
+  .clash_hero_slider .disp_slider_heading h6 {
     font-size: 25px;
     line-height: 46px;
   }

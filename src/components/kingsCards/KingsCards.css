@@ -1,0 +1,208 @@
+.card_wrapper_for_kings.fight_3 .flip-card,
+.fight_2 .flip-card,
+.fight_1 .flip-card {
+  width: 100%;
+  height: 550px;
+  perspective: 1000px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.fight_3 .flip-card-inner,
+.fight_1 .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.fight_3 .flip-card:hover .flip-card-inner,
+.fight_1 .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.fight_3 .flip-card-front,
+.fight_3 .flip-card-back,
+.fight_2 .flip-card-front,
+.fight_2 .flip-card-back,
+.fight_1 .flip-card-front,
+.fight_1 .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background: #303642;
+  opacity: 0.8;
+}
+
+.fight_3 .flip-card-front {
+  background: #303642;
+  color: black;
+  background-image: url("../../assets/images/fighter2.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fight_3 .flip-card-back,
+.fight_1 .flip-card-back {
+  background-color: #2980b9;
+  background: #303642;
+  transform: rotateY(180deg);
+  padding: 30px 15px;
+}
+.star {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.fight_3 .flip-card-front button,
+.fight_1 .flip-card-front button,
+.fight_2 .flip-card-front button {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #f5f5f5;
+  background: #24bb63;
+  mix-blend-mode: normal;
+  border: 1px solid #005a17;
+  border-radius: 200px;
+  padding: 8px 40px;
+  border: none;
+}
+.fight_3 .flip-card-back h1,
+.fight_1 .flip-card-back h1,
+.fight_2 .flip-card-back h1 {
+  font-family: mounmentBold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.05em;
+  color: #24bb63;
+}
+.fight_3 .flip-card-back p,
+.fight_1 .flip-card-back p,
+.fight_2 .flip-card-back p {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.win h6,
+.knockout h6,
+.finished h6 {
+  font-family: mounmentBold;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: 0.05em;
+  color: #24bb63;
+}
+.win p,
+.knockout p,
+.finished p {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.winning_strike_rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-left: 80px;
+}
+.fight_2 .flip-card-front {
+  background-image: url("../../assets/images/nocontest.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fight_1 .flip-card-front {
+  background-image: url("../../assets/images/fighter1.png");
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: space-between;
+  background-position: center;
+}
+.fight_2 .flip-card-front {
+  align-items: end;
+}
+.fight_2 .flip-card-front button {
+  background: #4276ba;
+}
+.fight_1 .star {
+  justify-content: start;
+}
+.fight_1 .flip-card-front button {
+  background: #9c399a;
+}
+.fight_1 .winning_strike_rate {
+  padding-left: 0px;
+}
+.fight_1 h2,
+.fight_2 h2,
+.fight_3 h2 {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #7d3484;
+  text-align: center;
+}
+.fight_2 h2 {
+  color: #2672be;
+}
+.fight_3 h2 {
+  color: #008439;
+}
+.fight_1 .flip-card-back h1,
+.fight_1 .win h6,
+.fight_1 .knockout h6,
+.fight_1 .finished h6 {
+  color: #7d3484;
+}
+@media screen and (max-width: 1640px) {
+  .fight_1 h2,
+  .fight_2 h2,
+  .fight_3 h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 1470px) {
+  .fight_1 h2,
+  .fight_2 h2,
+  .fight_3 h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card_wrapper_for_kings.fight_2,
+  .card_wrapper_for_kings.fight_1,
+  .card_wrapper_for_kings.fight_3 {
+    margin-top: 20px;
+  }
+}

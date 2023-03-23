@@ -1,0 +1,25 @@
+.cars_team_slider {
+  position: relative;
+}
+.cars_team_slider .slick-prev,
+.cars_team_slider .slick-next {
+  z-index: 2;
+}
+.cars_team_slider .slick-prev:before {
+  content: "";
+  background-image: url("../../assets/images/blueleftarrow.png");
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 0;
+}
+.cars_team_slider .slick-next:before {
+  content: "";
+  background-image: url("../../assets/images/bluerightarrow.png");
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-repeat: no-repeat;
+  right: 0;
+}

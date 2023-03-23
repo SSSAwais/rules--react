@@ -62,7 +62,11 @@ button.trophy span {
   margin-right: 8px;
 }
 .crown a,
-.crown a:hover {
+.crown a:hover,
+.sword a,
+.sword a:hover,
+.trophy a,
+.trophy a:hover {
   color: #ffffff;
   text-decoration: none;
 }

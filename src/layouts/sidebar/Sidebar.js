@@ -51,16 +51,20 @@ const Sidebar = () => {
               </NavLink>
             </button>
             <button className="sword">
-              <span>
-                <img src={sword} alt="crown" />
-              </span>{" "}
-              Clash of champions{" "}
+              <NavLink to="/clashofchampions">
+                <span>
+                  <img src={sword} alt="crown" />
+                </span>{" "}
+                Clash of champions{" "}
+              </NavLink>
             </button>
             <button className="trophy">
-              <span>
-                <img src={btntrophy} alt="crown" />
-              </span>{" "}
-              Grand Chelem{" "}
+              <NavLink to="/">
+                <span>
+                  <img src={btntrophy} alt="crown" />
+                </span>{" "}
+                Grand Chelem{" "}
+              </NavLink>
             </button>
           </div>
           {/* <div className="borderss"></div> */}
