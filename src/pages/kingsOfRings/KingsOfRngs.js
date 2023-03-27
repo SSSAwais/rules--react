@@ -83,7 +83,7 @@ const KingsOfRngs = () => {
           {/* main event slider ends here */}
 
           {/* step 2 of kings of the rings ends here */}
-          <div className="row kings_rings_Cards_section">
+          <div className="row kings_rings_Cards_section justify-content-around">
             <KingsCards />
           </div>
 

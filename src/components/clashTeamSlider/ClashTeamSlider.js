@@ -1,7 +1,7 @@
 import React from "react"
 import Slider from "react-slick"
 import "./ClashTeamSlider.css"
-import car1 from "../../assets/images/f1.png"
+import car1 from "../../assets/images/f101.png"
 import car2 from "../../assets/images/f2.png"
 import car3 from "../../assets/images/f11.png"
 const ClashTeamSlider = () => {
@@ -11,6 +11,14 @@ const ClashTeamSlider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          dots: true,
+        },
+      },
+    ],
   }
   return (
     <>

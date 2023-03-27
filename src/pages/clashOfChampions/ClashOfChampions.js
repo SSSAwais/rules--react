@@ -29,13 +29,11 @@ const ClashOfChampions = () => {
             <div className="col-lg-2"></div>
           </div>
           <div className="row justify-content-center align-items-center">
-            <div className="col-lg-2"></div>
-            <div className="col-lg-8 col-md-10 col-sm-12">
+            <div className="col-lg-10 col-md-10 col-sm-12">
               <div className="slider_section text-center">
                 <ClashChampionsHeroSlider />
               </div>
             </div>
-            <div className="col-lg-2"></div>
           </div>
           <div className="row">
             <div className="col-lg-12">

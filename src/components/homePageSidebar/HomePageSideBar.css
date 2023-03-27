@@ -1,0 +1,40 @@
+.home_page_sidebar {
+  background: linear-gradient(180deg, #242834 0%, rgba(36, 40, 52, 0.77) 100%);
+  box-shadow: 9px 0px 27px rgba(0, 0, 0, 0.2);
+  border-radius: 44px;
+  padding: 20px 30px;
+  margin-top: 70px;
+}
+.home_page_sidebar h6 {
+  font-family: "Exo", sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.search_bar {
+  position: relative;
+  text-align: center;
+}
+.search_bar i {
+  position: absolute;
+  color: #959595;
+  right: 65px;
+  top: 7px;
+}
+.search_bar input {
+  background-color: #242834;
+  border: 1.2px solid #959595;
+  padding-left: 8px;
+}
+
+.search_bar input::placeholder {
+  font-family: avenirRegular;
+  font-size: 14px;
+  line-height: 17px;
+  color: #959595;
+}

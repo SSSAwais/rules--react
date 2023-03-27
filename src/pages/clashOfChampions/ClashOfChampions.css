@@ -137,4 +137,42 @@
     font-size: 18px;
     line-height: 22px;
   }
+  .heading {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .clash_champion_heading_row {
+    padding-top: 45px;
+  }
+  .clashOfChampions_wrapper {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .heading h1 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  .clashOfChampios_headingDisp .clash_disp::before {
+    left: -30px;
+    top: 5px;
+  }
+  .clashOfChampios_headingDisp .clash_disp::after {
+    right: -30px;
+  }
+  .heading .rules_clash {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .heading h1 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .clashOfChampios_headingDisp .clash_disp {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
