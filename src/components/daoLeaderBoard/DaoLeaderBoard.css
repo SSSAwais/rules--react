@@ -41,6 +41,9 @@
   margin-bottom: 0px;
   margin-right: 12px;
 }
+.dao_left_side img {
+  margin-right: 6px;
+}
 @media screen and (max-width: 1400px) {
   .lsit_right_side h6,
   .dao_left_side h6 {

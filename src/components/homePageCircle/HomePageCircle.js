@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import logo from "../../assets/images/spinnerLogo.png"
 import "./HomePageCircle.css"
 import sword from "../../assets/images/cardSword.png"
@@ -11,7 +11,22 @@ import mvpText from "../../assets/images/mvp_text.png"
 import mvpglobe from "../../assets/images/mvpGlobe.png"
 import defiText from "../../assets/images/defi.png"
 import defihorse from "../../assets/images/defiHorse.png"
+import sound from "../../assets/images/sample-15s.mp3"
+import { useEffect } from "react"
 const HomePageCircle = () => {
+  const [audio] = useState(new Audio(sound))
+  const [playing, setPlaying] = useState(false)
+  const toggle = () => setPlaying(!playing)
+
+  useEffect(() => {
+    playing ? audio.play() : audio.pause()
+  }, [playing])
+  useEffect(() => {
+    audio.addEventListener("ended", () => setPlaying(false))
+    return () => {
+      audio.removeEventListener("ended", () => setPlaying(false))
+    }
+  }, [])
   return (
     <>
       <div className="spinner_wrapper mainbox" id="mainbox">
@@ -23,8 +38,13 @@ const HomePageCircle = () => {
                 alt="text"
                 className="img-fluid sword_text"
               />
-              <span className="image_one_sword">
-                <img src={sword} alt="img" className="img-fluid swordddd" />
+              <span className="image_one_sword ">
+                <img
+                  src={sword}
+                  alt="img"
+                  className="img-fluid swordddd"
+                  onClick={toggle}
+                />
               </span>
             </span>
             <span className="span2">
@@ -38,6 +58,7 @@ const HomePageCircle = () => {
                   src={trophySpin}
                   alt="img"
                   className="img-fluid trophy_spinner"
+                  onClick={toggle}
                 />
               </span>
             </span>
@@ -48,13 +69,19 @@ const HomePageCircle = () => {
                   src={crownSpin}
                   alt="crown"
                   className="img-fluid crown_imageee"
+                  onClick={toggle}
                 />
               </span>
             </span>
             <span className="span4">
               <img src={mvpText} alt="text" className="img-fluid mvp_text" />
               <span className="globe_wrapper">
-                <img src={mvpglobe} alt="globe" className="img-fluid globe" />
+                <img
+                  src={mvpglobe}
+                  alt="globe"
+                  className="img-fluid globe"
+                  onClick={toggle}
+                />
               </span>
             </span>
             <span className="span5">
@@ -64,6 +91,7 @@ const HomePageCircle = () => {
                   src={defihorse}
                   alt="img"
                   className="img-fluid defi_horse"
+                  onClick={toggle}
                 />
               </span>
             </span>
