@@ -1,5 +1,6 @@
 import React from "react"
 import AbsDiv from "../../components/absDiv/AbsDiv"
+import HomePageCircle from "../../components/homePageCircle/HomePageCircle"
 import HomePageSideBar from "../../components/homePageSidebar/HomePageSideBar"
 import HomePageSlilder from "../../components/homePageSlider/HomePageSlilder"
 import "./HomePage.css"
@@ -13,6 +14,9 @@ const HomePage = () => {
             <div className="col-lg-8 col-md-8 col-sm-12">
               <div className="space-section">
                 <AbsDiv />
+              </div>
+              <div className="circle_section">
+                <HomePageCircle />
               </div>
               <div>
                 <HomePageSlilder />

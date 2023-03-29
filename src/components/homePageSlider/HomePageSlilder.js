@@ -38,6 +38,7 @@ const HomePageSlilder = () => {
   return (
     <>
       <div className="home_page_slider">
+        <h6>Live events</h6>
         <Slider {...settings}>
           <div className="first_slide">
             <div className="slide_inner">
