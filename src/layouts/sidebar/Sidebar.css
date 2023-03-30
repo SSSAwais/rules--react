@@ -245,7 +245,7 @@ button.trophy span {
   }
   .mobile_view_sidebar {
     display: block;
-    z-index: 9999;
+    z-index: 111111;
     right: -50%;
     animation: slide 0.5s forwards;
   }
