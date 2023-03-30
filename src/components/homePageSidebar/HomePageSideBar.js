@@ -99,8 +99,8 @@ const HomePageSideBar = () => {
       <div className="home_page_sidebar">
         <h6>dao leaderboard</h6>
         <div className="search_bar">
-          <input placeholder="Search" />
-          <i className="fa-solid fa-magnifying-glass"></i>s
+          <input placeholder="Search" className="form-control" />
+          <i className="fa-solid fa-magnifying-glass"></i>
         </div>
         <div className="lisitng_section">
           {DaoLeaderBoardList.map((e, idx) => {

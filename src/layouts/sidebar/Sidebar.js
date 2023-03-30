@@ -59,7 +59,7 @@ const Sidebar = () => {
               </NavLink>
             </button>
             <button className="trophy">
-              <NavLink to="/">
+              <NavLink to="/rules">
                 <span>
                   <img src={btntrophy} alt="crown" />
                 </span>{" "}
@@ -133,22 +133,28 @@ const Sidebar = () => {
             <div className="button_section">
               <h6>Gaming Modes</h6>
               <button className="crown">
-                <span>
-                  <img src={btnCrown} alt="crown" />
-                </span>{" "}
-                Kings of the ring{" "}
+                <NavLink to="/kingsofrings ">
+                  <span>
+                    <img src={btnCrown} alt="crown" />
+                  </span>{" "}
+                  Kings of the ring{" "}
+                </NavLink>
               </button>
               <button className="sword">
-                <span>
-                  <img src={sword} alt="crown" />
-                </span>{" "}
-                Clash of champions{" "}
+                <NavLink to="/clashofchampions">
+                  <span>
+                    <img src={sword} alt="crown" />
+                  </span>{" "}
+                  Clash of champions{" "}
+                </NavLink>
               </button>
               <button className="trophy">
-                <span>
-                  <img src={btntrophy} alt="crown" />
-                </span>{" "}
-                Grand Chelem{" "}
+                <NavLink to="/rules">
+                  <span>
+                    <img src={btntrophy} alt="crown" />
+                  </span>{" "}
+                  Grand Chelem{" "}
+                </NavLink>
               </button>
             </div>
             {/* <div className="borderss"></div> */}

@@ -17,7 +17,7 @@ const HomePageCircle = () => {
   const [audio] = useState(new Audio(sound))
   const [playing, setPlaying] = useState(false)
   const toggle = () => setPlaying(!playing)
-
+    
   useEffect(() => {
     playing ? audio.play() : audio.pause()
   }, [playing])
@@ -27,6 +27,11 @@ const HomePageCircle = () => {
       audio.removeEventListener("ended", () => setPlaying(false))
     }
   }, [])
+
+
+ 
+
+
   return (
     <>
       <div className="spinner_wrapper mainbox" id="mainbox">

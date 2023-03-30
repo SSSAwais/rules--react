@@ -70,7 +70,7 @@
 .card {
   position: relative;
   padding: 42px 32px;
-  clip-path: circle(5% at 95% 11%);
+  clip-path: circle(7% at 95% 12%);
   transition: all ease-in-out 0.3s;
   height: 450px !important;
   border: none;
@@ -80,7 +80,7 @@
 .card__infoicon {
   position: absolute;
   top: 25px;
-  right: -1px;
+  right: 5px;
   font-size: 1.4em;
   color: #000 !important;
   transition: ease-out 0.3s;
@@ -229,6 +229,9 @@
   .finished {
     padding: 0px 15px;
   }
+  .card_wrapper_for_kings {
+    margin-top: 20px !important;
+  }
 }
 @media screen and (max-width: 576px) {
   .winning_strike_rate {
@@ -254,5 +257,8 @@
   .fight_2 .flip_card_back h1 {
     font-size: 18px;
     line-height: 24px;
+  }
+  .card {
+    clip-path: circle(9% at 95% 12%);
   }
 }

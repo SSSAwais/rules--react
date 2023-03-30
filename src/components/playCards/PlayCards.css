@@ -248,7 +248,7 @@
     height: 585px;
   }
   .step1 {
-    height: 168px;
+    height: 155px;
   }
   .step3 {
     padding-top: 20px;
@@ -263,8 +263,8 @@
   .step1 p,
   .step2 p,
   .step3 p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 19px;
   }
   .flip-card-front h1,
   .flip-card-back h1 {

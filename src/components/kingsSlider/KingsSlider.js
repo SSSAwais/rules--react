@@ -10,6 +10,14 @@ const KingsSlider = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          dots: true,
+        },
+      },
+    ],
   }
   return (
     <>
